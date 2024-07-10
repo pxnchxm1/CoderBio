@@ -6,12 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      screens: {
-        sm: '500px',
-        md: '768px',
-        lg: '976px',
-        xl: '1440px',
-      },
+      // screens: {
+      //   sm: '500px',
+      //   md: '768px',
+      //   lg: '976px',
+      //   xl: '1440px',
+      // },
       colors: {
         'bg-light': '#e9d5ff',
         'light-for-dark':'#BB57E9',
