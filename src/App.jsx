@@ -47,11 +47,11 @@ function App() {
               </ul>
             </div>
             <div  className='flex items-center gap-4'>
-              <a href="#contact">
+              {/* <a href="#contact">
               <button className=' ease-in duration-500 flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid  text-bg-secondary-dark dark:text-bg-light dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light border-bg-secondary-dark px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
                 <i className="ri-send-plane-fill font-[200] font-space  hover:font-[600] "></i>Let's Talk
               </button>
-              </a>
+              </a> */}
               <button onClick={toggleMode} className="ease-in duration-[300] text-[25px] hover:text-[23px] leading-[15px] ml-[10px]">
                 {isDarkMode ? <i className='ri-sun-fill dark:text-bg-light '/> : <FontAwesomeIcon icon={faMoon}  className="small-text-color-light"/>}
               </button>

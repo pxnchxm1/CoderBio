@@ -10,12 +10,12 @@ function About() {
             <div className='container pt-14 '>
                 <div className='flex items-center justify-between sm:flex-col md:flex-row '>
                     <div className='w-full md:basis-1/2'>
-                        <h5 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[1rem] text-[16px] text-light-for-light dark:text-light-for-dark'>Greetings and Thankyou for Checking Out My Work</h5>
+                        <h5 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[1rem] text-[14px] md:text-[16px] text-light-for-light dark:text-light-for-dark'>Greetings and Thankyou for Checking Out My Work</h5>
                         <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space  leading-[35px] sm:leading[46px] mt-[1.4rem] text-[1.4rem] sm:text-[40px] text-bg-secondary-dark dark:text-bg-light' >I'm Panchami P Kumar</h1>
                         <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[3px] leading-[35px] sm:leading[46px] text-[1.4rem] sm:text-[40px] text-light-for-light dark:text-light-for-dark' >Frontend Developer</h1>
-                        <p  data-aos="fade-up" data-aos-duration="1500" className='text-justify font-[600] font-Nunito mt-[8px] leading-[35px] sm:leading[46px] text-[17px] sm:text-[13px] text-bg-secondary-dark dark:text-bg-light ' >
-                        I thrive on solving complex problems and have a keen eye for creating visually<br></br> 
-                        compelling solutions . Learning Enthusiast . Eager to expand my skill set and<br></br> 
+                        <p  data-aos="fade-up" data-aos-duration="1500" className='text-justify font-[600] font-Nunito mt-[8px] leading-[35px] sm:leading[46px] md:text-[14px] sm:text-[10px] text-bg-secondary-dark dark:text-bg-light ' >
+                        I thrive on solving complex problems and have a keen eye for creating visually
+                        compelling solutions . Learning Enthusiast . Eager to expand my skill set and
                         make meaningful contributions to innovative projects.
                         </p>
                        <div data-aos="fade-up"
