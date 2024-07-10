@@ -8,12 +8,12 @@ function About() {
     <div>
         <section className='pt-0 pl-8' id='about'>
             <div className='container pt-14 '>
-                <div className='flex items-center justify-between flex-col md:flex-row '>
+                <div className='flex items-center justify-between flex-col md:flex-row pr-5'>
                     <div className='w-full md:basis-1/2 pr-5'>
-                        <h5 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[1rem] text-[14px] md:text-[16px] text-light-for-light dark:text-light-for-dark'>Greetings and Thankyou for Checking Out My Work</h5>
-                        <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space  leading-[35px] sm:leading[46px] mt-[1.4rem] text-[1.4rem] sm:text-[40px] text-bg-secondary-dark dark:text-bg-light' >I'm Panchami P Kumar</h1>
-                        <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[3px] leading-[35px] sm:leading[46px] text-[1.4rem] sm:text-[40px] text-light-for-light dark:text-light-for-dark' >Frontend Developer</h1>
-                        <p  data-aos="fade-up" data-aos-duration="1500" className='text-justify font-[600] font-Nunito mt-[8px] leading-[35px] sm:leading[46px] md:text-[14px] sm:text-[10px] text-bg-secondary-dark dark:text-bg-light ' >
+                        <h5 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[1rem] md:text-[14px] text-[12px] text-light-for-light dark:text-light-for-dark'>Greetings and Thankyou for Checking Out My Work</h5>
+                        <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space  leading-[35px] sm:leading[46px] mt-[1.4rem] md:text-[2.4rem] text-[25px] text-bg-secondary-dark dark:text-bg-light' >I'm Panchami P Kumar</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[3px] leading-[35px] sm:leading[46px] md:text-[2.3rem] text-[25px] text-light-for-light dark:text-light-for-dark' >Frontend Developer</h1>
+                        <p  data-aos="fade-up" data-aos-duration="1500" className='text-justify font-[600] font-Nunito mt-[8px] leading-[35px] sm:leading[46px] md:text-[14px] text-[12px] text-bg-secondary-dark dark:text-bg-light ' >
                         I thrive on solving complex problems and have a keen eye for creating visually
                         compelling solutions. Learning Enthusiast. Eager to expand my skill set and
                         make meaningful contributions to innovative projects.
@@ -65,7 +65,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className='basis-1/3 mt-10 sm:mt-0 pr-5'>
+                    <div className='basis-1/3 mt-12 md:mt-10  pr-5'>
                         <figure  data-aos="fade-left" data-aos-duration="1500" className=' flex items-center justify-center'>
                             <img src='../../src/assets/images/pic1.jpg' alt="me" className=' brightness-50 drop-shadow-sm shadow-light-for-dark shadow-sm  max-h-[370px] rounded-full  '></img>
                         </figure>

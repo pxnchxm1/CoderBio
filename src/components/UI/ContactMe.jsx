@@ -23,7 +23,7 @@ const ContactMe = () => {
             <div className="text-center ">
                 <div className="font-[800] text-[2.5rem] text-bg-secondary-dark dark:text-bg-light hover:text-light-for-light dark:hover:text-light-for-light">Drop a Line</div>
             </div>
-            <form data-aos='flip-left' data-aos-duration='2000' onSubmit={handleSubmit} className='flex flex-col dark:bg-bg-light dark:bg-opacity-10 bg-purple-100 bg-opacity-90 backdrop-filter backdrop-blur-lg p-[2rem] hover:opacity-90 rounded-[8px] mt-[1rem] mb-[5rem] justify-center items-center w-[60%]'>
+            <form data-aos='flip-left' data-aos-duration='2000' onSubmit={handleSubmit} className='flex flex-col dark:bg-bg-light dark:bg-opacity-10 bg-purple-100 bg-opacity-90 backdrop-filter backdrop-blur-lg p-[2rem] hover:opacity-90 rounded-[8px] mt-[1rem] mb-[5rem] justify-center items-center w-[75%]'>
                 <div className="mb-4 w-[90%]">
                     <label htmlFor="name" className="font-[700] mb-3 group-hover:font-[600] sm:text-sm md:text-md lg:text-[16px] text-bg-secondary-dark dark:text-card-bg">Name</label>
                     <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="mt-1 flex w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
