@@ -14,7 +14,7 @@ const Projects = () => {
   
   return (
     <section id='projects'>
-      <div className="container lg:pt-5 ">
+      <div className="container lg:pt-14 ">
         <div className="flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0 ">
             <h3 data-aos='zoom-in' data-aos-duration='1000' className="font-[800]  text-[1.9rem] md:text-[2.5rem] text-bg-secondary-dark dark:text-bg-light hover:text-light-for-light dark:hover:text-light-for-light">Project Gallery</h3>

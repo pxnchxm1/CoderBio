@@ -22,7 +22,7 @@ function App() {
 
   const Header=()=>{
     return(
-    <header   className="height-[80px] w-full z-[20] flex leading-[80px] items-center " data-aos="fade-in" data-aos-duration="2000">
+    <header   className=" fixed dark:bg-bg-secondary-dark height-[80px] w-full z-[20] flex leading-[80px] items-center " data-aos="fade-in" data-aos-duration="2000">
         <div  className='container mt-[1rem]'>
           <div className='flex justify-between items-center '>
             <div className='flex items-center gap-[10px] '>
@@ -53,13 +53,13 @@ function App() {
                 <i className="ri-send-plane-fill font-[200] font-space  hover:font-[600] "></i>Let's Talk
               </button>
               </a> */}
-              <button onClick={toggleMode} className="ease-in duration-[300] text-[25px] hover:text-[23px] leading-[15px] ml-[10px]">
+              <button onClick={toggleMode} className="ease-in duration-[300] text-[25px] hover:text-[23px] leading-[15px] ml-[10px] pr-5">
                 {isDarkMode ? <i className='ri-sun-fill dark:text-bg-light '/> : <FontAwesomeIcon icon={faMoon}  className="small-text-color-light"/>}
               </button>
 
-              <span className='text-2xl font-space pr-5 text-bg-secondary-dark dark:text-bg-light md:hidden cursor-pointer '>
+              {/* <span className='text-2xl font-space pr-5 text-bg-secondary-dark dark:text-bg-light md:hidden cursor-pointer '>
                 <i className='ri-menu-line'></i>
-              </span>
+              </span> */}
             </div>
             
             

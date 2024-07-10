@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
         <section className='pt-0 pl-8' id='about'>
-            <div className='container pt-14 '>
+            <div className='container pt-24 '>
                 <div className='flex items-center justify-between flex-col md:flex-row pr-5'>
                     <div className='w-full md:basis-1/2 pr-5'>
                         <h5 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[1rem] md:text-[14px] text-[12px] text-light-for-light dark:text-light-for-dark'>Greetings and Thankyou for Checking Out My Work</h5>
