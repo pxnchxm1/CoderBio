@@ -67,7 +67,7 @@ function About() {
                         </div>
                     </div>
                     <div className='basis-1/3 mt-12 md:mt-10  pr-5'>
-                        <figure  data-aos="fade-left" data-aos-duration="1500" className=' flex items-center justify-center'>
+                        <figure  data-aos="flip-right" data-aos-duration="2500" className=' flex items-center justify-center'>
                             <img src={profileimg} alt="me" className=' brightness-50 drop-shadow-sm shadow-light-for-dark shadow-sm  max-h-[370px] rounded-full  '></img>
                         </figure>
                     </div>

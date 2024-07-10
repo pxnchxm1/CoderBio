@@ -6,6 +6,7 @@ import './App.css';
 import Footer from './components/footer/footer';
 import About from './components/UI/About';
 import ContactMe from './components/UI/ContactMe';
+import Edu from './components/UI/Edu';
 import Projects from './components/UI/Projects';
 import Skills from './components/UI/Skills';
 
@@ -76,6 +77,7 @@ function App() {
         <About/>
         <Skills/>
         <Projects/>
+        <Edu/>
         <ContactMe/>
       </main>
       <Footer/>

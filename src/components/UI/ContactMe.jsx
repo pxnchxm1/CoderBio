@@ -21,7 +21,7 @@ const ContactMe = () => {
     <section id="contact">
         <div className="container lg:pt-5 flex flex-col items-center justify-center">
             <div className="text-center ">
-                <div className="font-[800] text-[2.5rem] text-bg-secondary-dark dark:text-bg-light hover:text-light-for-light dark:hover:text-light-for-light">Drop a Line</div>
+                <div data-aos='zoom-in' data-aos-duration='1000' className="font-[800] text-[1.9rem] md:text-[2.5rem] text-bg-secondary-dark dark:text-bg-light hover:text-light-for-light dark:hover:text-light-for-light">Drop a Line</div>
             </div>
             <form data-aos='flip-left' data-aos-duration='2000' onSubmit={handleSubmit} className='flex flex-col dark:bg-bg-light dark:bg-opacity-10 bg-purple-100 bg-opacity-90 backdrop-filter backdrop-blur-lg p-[2rem] hover:opacity-90 rounded-[8px] mt-[1rem] mb-[5rem] justify-center items-center w-[75%]'>
                 <div className="mb-4 w-[90%]">

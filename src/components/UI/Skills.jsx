@@ -56,7 +56,7 @@ const Skills = () => {
     <section id='skills'>
       <div className="container lg:pt-5 ">
         <div className="text-center ">
-          <div className="font-[800] text-[2.5rem] text-bg-secondary-dark dark:text-bg-light hover:text-light-for-light dark:hover:text-light-for-light">Areas Of Expertise</div>
+          <div data-aos='zoom-in' data-aos-duration='1000' className="font-[800]  text-[1.9rem] md:text-[2.5rem] text-bg-secondary-dark dark:text-bg-light hover:text-light-for-light dark:hover:text-light-for-light">Areas Of Expertise</div>
         </div>
         <div className="flex flex-col justify-center sm:py-12">
           <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
