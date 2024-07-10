@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser';
 import React, { useState } from 'react';
 
+
 const ContactMe = () => {
     
     const [name,setName] = useState('');
@@ -9,9 +10,9 @@ const ContactMe = () => {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        const serviceId='service_6kixuzg';
-        const templateId = 'template_5p8pjag';
-        const publicKey='i8Drj3pH7kM6LLiXJ';
+        const serviceId=import.meta.env.VITE_SERVICE_ID;
+        const templateId = import.meta.env.VITE_TEMPLATE_ID;
+        const publicKey=import.meta.env.VITE_PUBLIC_KEY;
 
         const templateParams={
             from_name : name,
