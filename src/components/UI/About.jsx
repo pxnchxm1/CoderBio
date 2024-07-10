@@ -9,13 +9,13 @@ function About() {
         <section className='pt-0 pl-8' id='about'>
             <div className='container pt-14 '>
                 <div className='flex items-center justify-between flex-col md:flex-row '>
-                    <div className='w-full md:basis-1/2'>
+                    <div className='w-full md:basis-1/2 pr-5'>
                         <h5 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[1rem] text-[14px] md:text-[16px] text-light-for-light dark:text-light-for-dark'>Greetings and Thankyou for Checking Out My Work</h5>
                         <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space  leading-[35px] sm:leading[46px] mt-[1.4rem] text-[1.4rem] sm:text-[40px] text-bg-secondary-dark dark:text-bg-light' >I'm Panchami P Kumar</h1>
                         <h1 data-aos="fade-up" data-aos-duration="1500" className='font-[600] font-space mt-[3px] leading-[35px] sm:leading[46px] text-[1.4rem] sm:text-[40px] text-light-for-light dark:text-light-for-dark' >Frontend Developer</h1>
                         <p  data-aos="fade-up" data-aos-duration="1500" className='text-justify font-[600] font-Nunito mt-[8px] leading-[35px] sm:leading[46px] md:text-[14px] sm:text-[10px] text-bg-secondary-dark dark:text-bg-light ' >
                         I thrive on solving complex problems and have a keen eye for creating visually
-                        compelling solutions . Learning Enthusiast . Eager to expand my skill set and
+                        compelling solutions. Learning Enthusiast. Eager to expand my skill set and
                         make meaningful contributions to innovative projects.
                         </p>
                        <div data-aos="fade-up"
@@ -65,12 +65,12 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className='basis-1/3 mt-10 sm:mt-0 '>
+                    <div className='basis-1/3 mt-10 sm:mt-0 pr-5'>
                         <figure  data-aos="fade-left" data-aos-duration="1500" className=' flex items-center justify-center'>
                             <img src='../../src/assets/images/pic1.jpg' alt="me" className=' brightness-50 drop-shadow-sm shadow-light-for-dark shadow-sm  max-h-[370px] rounded-full  '></img>
                         </figure>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="1500" className='md:basis-1/5  flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
+                    <div data-aos="fade-left" data-aos-duration="1500" className='md:basis-1/5 pr-5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
                         <div className='mb-10'>
                             <h2 className='mt-[5px] text-bg-dark dark:text-bg-light font-[700] text-[32px]'>
                                 <CountUp start={0} end={188} duration={2} suffix='+'/>

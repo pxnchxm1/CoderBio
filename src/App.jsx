@@ -56,7 +56,7 @@ function App() {
                 {isDarkMode ? <i className='ri-sun-fill dark:text-bg-light '/> : <FontAwesomeIcon icon={faMoon}  className="small-text-color-light"/>}
               </button>
 
-              <span className='text-2xl font-space text-bg-secondary-dark dark:text-bg-light md:hidden cursor-pointer '>
+              <span className='text-2xl font-space pr-5 text-bg-secondary-dark dark:text-bg-light md:hidden cursor-pointer '>
                 <i className='ri-menu-line'></i>
               </span>
             </div>
