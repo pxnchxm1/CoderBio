@@ -2,6 +2,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import '../../App.css';
+import profileimg from '../../assets/images/pic1.jpg';
 
 function About() {
   return (
@@ -67,7 +68,7 @@ function About() {
                     </div>
                     <div className='basis-1/3 mt-12 md:mt-10  pr-5'>
                         <figure  data-aos="fade-left" data-aos-duration="1500" className=' flex items-center justify-center'>
-                            <img src='../../src/assets/images/pic1.jpg' alt="me" className=' brightness-50 drop-shadow-sm shadow-light-for-dark shadow-sm  max-h-[370px] rounded-full  '></img>
+                            <img src={profileimg} alt="me" className=' brightness-50 drop-shadow-sm shadow-light-for-dark shadow-sm  max-h-[370px] rounded-full  '></img>
                         </figure>
                     </div>
                     <div data-aos="fade-left" data-aos-duration="1500" className='md:basis-1/5 pr-5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>

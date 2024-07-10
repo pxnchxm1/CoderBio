@@ -21,8 +21,8 @@ function App() {
 
   const Header=()=>{
     return(
-    <header   className="height-[80px] w-full z-[20] flex leading-[80px] items-center" data-aos="fade-in" data-aos-duration="2000">
-        <div  className='container mt-[2px]'>
+    <header   className="height-[80px] w-full z-[20] flex leading-[80px] items-center " data-aos="fade-in" data-aos-duration="2000">
+        <div  className='container mt-[1rem]'>
           <div className='flex justify-between items-center '>
             <div className='flex items-center gap-[10px] '>
               <span className='w-[40px] h-[40px] text-[18px] font-[600]  rounded-full flex items-center justify-center border border-solid border-bg-dark text-bg-secondary-dark dark:text-bg-light dark:border-bg-light'>
