@@ -63,7 +63,7 @@ const ContactMe = () => {
                     <textarea id="message" name="message" value={message} onChange={(e)=>{setMessage(e.target.value)}} rows="4" required className="mt-1 font-space  font-[500] text-bg-secondary-dark flex w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:card-bg focus:purple-200 sm:text-sm"></textarea>
                 </div>
                 <div className="text-center items-center justify-center flex">
-                    <button className=' ease-in duration-500 flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid  text-bg-secondary-dark font-space dark:text-bg-light dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light border-bg-secondary-dark px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
+                    <button className='ease-in duration-500 flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid  text-bg-secondary-dark font-space dark:text-bg-light dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light border-bg-secondary-dark px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
                         <i className="ri-mail-send-fill font-[200] font-space  hover:font-[600] "></i>Send
                     </button>
                 </div>
