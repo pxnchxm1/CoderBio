@@ -4,7 +4,7 @@ export const edu=[
         name:"M.C.A",
         institution:"SRMIST Kattankulathur, Chennai",
         year:"2023-25",
-        cgpa:9.5
+        cgpa:9.48
     },
     {
         id:2,
