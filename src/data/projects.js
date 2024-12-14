@@ -12,6 +12,17 @@ import srmtt from '../assets/images/srmtt.jpg';
 export const projects=[
     {
         id:0,
+        title:"SnapSkin",
+        category:"Next Js Projects",
+        description:" Create your own custom phone cases in just a few clicks. Upload your favorite images, add fun filters, and let your personality shine! Built with Next.js and Tailwind CSS, Snap Skin is super easy to use and secure, thanks to Auth.js and MongoDB. Get ready to personalize your phone in a cute and friendly way! 📱💕",
+        image:snapskin,
+        siteUrl:"https://snap-skin.vercel.app/",
+        
+        technologies:[Next Js, Tailwind CSS, MongoDb, Auth Js]
+        
+    },
+    {
+        id:1,
         title:"CineSLICE",
         category:"React Projects",
         description:"This web application, built with React.js, Vite, and Firebase, serves as a platform for users to explore and watch trailers of various movies. Utilizing data from the TMDB (The Movie Database) API, users can discover trending, popular, and upcoming movies, and watch their trailers directly on the platform.",
@@ -22,7 +33,7 @@ export const projects=[
         
     },
     {
-        id:1,
+        id:2,
         title:"CuriousBees",
         category:"Flutter Projects",
         description:"The Research Collaboration Hub is a cutting-edge platform leveraging Flutter, Firestore, Firebase, and Python to enable seamless project collaboration, scheduling, and communication among researchers and professionals. Users can foster efficient research management and networking capabilities within a user-friendly mobile interface.",
@@ -32,7 +43,7 @@ export const projects=[
        
     },
     {
-        id:2,
+        id:3,
         title:"SRMTT",
         category:"Flutter Projects",
         description:"Built web-based timetable generator (Flutter/Python) empowering students and faculty to get custom daily schedules through intuitive interface.",
