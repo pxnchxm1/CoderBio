@@ -23,6 +23,9 @@ const Projects = () => {
             <button onClick={() => setFilter('All')}  className=' font-nunito ease-in duration-500 font-[700] flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid border-card-bg text-card-bg dark:text-light-for-dark dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
               All
             </button>
+            <button onClick={() => setFilter('Next Projects')}  className=' font-nunito ease-in duration-500 font-[700] flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid border-card-bg text-card-bg dark:text-light-for-dark dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
+              Next Projects
+            </button>
             <button onClick={() => setFilter('Flutter Projects')}  className=' font-nunito ease-in duration-500 font-[700] flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid border-card-bg text-card-bg dark:text-light-for-dark dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
               Flutter Projects
             </button>

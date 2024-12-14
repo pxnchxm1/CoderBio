@@ -1,12 +1,12 @@
 import { DiJavascript } from 'react-icons/di';
 import { FaCss3Alt, FaPython, FaReact } from 'react-icons/fa';
 import { IoLogoFirebase } from 'react-icons/io5';
-import { RiFlutterFill } from "react-icons/ri";
-import { SiDart, SiMui } from 'react-icons/si';
+import { RiFlutterFill, RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiDart, SiMongodb, SiMui } from "react-icons/si";
 import { TbBrandVite } from "react-icons/tb";
 import curiousbees from '../assets/images/bees1.jpg';
-import snapskin from '../assets/images/snapskin.png';
 import cineslice from '../assets/images/cineslice.jpg';
+import snapskin from '../assets/images/snapskin.png';
 import srmtt from '../assets/images/srmtt.jpg';
 
 
@@ -14,12 +14,12 @@ export const projects=[
     {
         id:0,
         title:"SnapSkin",
-        category:"Next Js Projects",
-        description:" Create your own custom phone cases in just a few clicks. Upload your favorite images, add fun filters, and let your personality shine! Built with Next.js and Tailwind CSS, Snap Skin is super easy to use and secure, thanks to Auth.js and MongoDB. Get ready to personalize your phone in a cute and friendly way! 📱💕",
+        category:"Next Projects",
+        description:" Create your own custom phone cases in just a few clicks. Upload your favorite images, add fun filters, and let your personality shine! Built with Next js and Tailwind CSS, Snap Skin is super easy to use and secure, thanks to Auth.js and MongoDB. Get ready to personalize your phone in a cute and friendly way! 📱💕",
         image:snapskin,
         siteUrl:"https://snap-skin.vercel.app/",
         
-        technologies:[Next Js, Tailwind CSS, MongoDb, Auth Js]
+        technologies:[RiNextjsFill,RiTailwindCssFill,SiMongodb]
         
     },
     {

@@ -7,6 +7,7 @@ import Footer from './components/footer/footer';
 import About from './components/UI/About';
 import ContactMe from './components/UI/ContactMe';
 import Edu from './components/UI/Edu';
+import Internships from './components/UI/Internships';
 import Projects from './components/UI/Projects';
 import Skills from './components/UI/Skills';
 
@@ -22,7 +23,7 @@ function App() {
 
   const Header=()=>{
     return(
-    <header   className=" fixed dark:bg-bg-secondary-dark height-[80px] w-full z-[20] flex leading-[80px] items-center " data-aos="fade-in" data-aos-duration="2000">
+    <header   className=" fixed dark:bg-bg-secondary-dark bg-white height-[80px] w-full z-[20] flex leading-[80px] items-center " data-aos="fade-in" data-aos-duration="2000">
         <div  className='container mt-[1rem]'>
           <div className='flex justify-between items-center '>
             <div className='flex items-center gap-[10px] '>
@@ -41,9 +42,16 @@ function App() {
             <div className='Menu hidden md:flex '>
               <ul className='flex flex-row items-center gap-6'>
                 <li><a className='font-[600] text-[16px]  hover:text-[17px] font-space text-bg-secondary-dark dark:text-bg-light' href="#about">About</a></li>
+
                 <li><a  className='font-[600] text-[16px]  hover:text-[17px] font-space text-bg-secondary-dark dark:text-bg-light' href="#skills">Skills</a></li>
+
                 <li><a className='font-[600] text-[16px]  hover:text-[17px] font-space text-bg-secondary-dark dark:text-bg-light' href="#projects"> Projects</a></li>
+
+                <li><a className='font-[600] text-[16px]  hover:text-[17px] font-space text-bg-secondary-dark dark:text-bg-light' href="#internships"> Internships</a></li>
+
+
                 <li><a className='font-[600] text-[16px]  hover:text-[17px] font-space text-bg-secondary-dark dark:text-bg-light' href="#edu">Education</a></li>
+
                 <li><a className='font-[600] text-[16px]  hover:text-[17px] font-space text-bg-secondary-dark dark:text-bg-light' href="#contact">Contact Me</a></li>
               </ul>
             </div>
@@ -77,6 +85,7 @@ function App() {
         <About/>
         <Skills/>
         <Projects/>
+        <Internships/>
         <Edu/>
         <ContactMe/>
       </main>
