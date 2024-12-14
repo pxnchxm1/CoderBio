@@ -62,10 +62,10 @@ const Skills = () => {
           <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
             <div className="relative text-bg-secondary-dark dark:text-bg-light antialiasedbtext-sm text-semibold">
               <div className="hidden absolute w-1 sm:block bg-card-bg h-full left-1/2 transform-translate-x-1/2"></div>
-              <LeftCard title='Frontend Development' sub='Flutter | React.Js | HTML5 | CSS' ri='ri-macbook-line'/>
-              <RightCard title='Backend Development' sub='Firebase | Firestore' ri='ri-database-2-fill'/>
+              <LeftCard title='Frontend Development' sub='Next.Js | React.Js | Tailwind CSS | HTML5 | CSS | Flutter ' ri='ri-macbook-line'/>
+              <RightCard title='Backend Development' sub='MongoDb | MySQL | Firebase | Firestore' ri='ri-database-2-fill'/>
               <LeftCard title='Tools' sub='Git | Github | VisualStudio Code | JupyterNotebook ' ri='ri-tools-fill'/>
-              <RightCard title='Languages' sub='Python | JavaScript | Java | Dart' ri='ri-global-line'/>
+              <RightCard title='Languages' sub='Python | JavaScript | Java ' ri='ri-global-line'/>
               <LeftCard title='Others' sub='Problem Solving | Leetcode | HackerRank ' ri='ri-lightbulb-flash-fill'/>
             </div>
           </div>
