@@ -30,7 +30,7 @@ function About() {
                                         <i className="ri-mail-line font-[200] font-space  hover:font-[600] "></i>Hire me
                                     </button>
                                 </a>
-                                <a href="https://drive.google.com/file/d/15Wma_7VYdCyZNTMaN5FW7BxQhxjwZdU1/view?usp=drivesdk ">
+                                <a href="https://drive.google.com/file/d/1wezx6qk71c93XgLfXf5P5TD_Ym2vNkkd/view?usp=drive_link">
                                         <button className=' ease-in duration-500 flex items-center gap-2 rounded-[8px] max-h-[35px] border border-solid  text-bg-secondary-dark dark:text-light-for-dark dark:hover:text-bg-dark hover:font-[600] dark:border-bg-light border-bg-secondary-dark px-4 py-2 text-[14px] hover:bg-bg-dark hover:text-bg-light dark:hover:bg-bg-light '>
                                             <i className="ri-file-pdf-2-fill font-[200] font-space  hover:font-[600] "></i>Resume
                                         </button>
