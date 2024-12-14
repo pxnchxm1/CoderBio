@@ -5,6 +5,7 @@ import { RiFlutterFill } from "react-icons/ri";
 import { SiDart, SiMui } from 'react-icons/si';
 import { TbBrandVite } from "react-icons/tb";
 import curiousbees from '../assets/images/bees1.jpg';
+import snapskin from '../assets/images/snapskin.png';
 import cineslice from '../assets/images/cineslice.jpg';
 import srmtt from '../assets/images/srmtt.jpg';
 
